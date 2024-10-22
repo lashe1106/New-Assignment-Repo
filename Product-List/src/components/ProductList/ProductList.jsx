@@ -1,0 +1,23 @@
+import Product from '../Product/Product'
+import '../Product/Product.css'
+import './ProductList.css'
+const ProductList = () => {
+    return(
+        <div className='product-list'>
+            <Product productUrl='https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS1_nQgJnC0Q4KcuHoO8oxNzRsdJA8iclEcgZYsgrYg1_ZvLVbGPTtarn6K6GCJ_uLzoHJXh7160qRrm6PNNV1bmJoJDq2Szvx2vN8veHqjEF1zBQnZNtEDc5g8vTwn0MUerlYbza4&usqp=CAc' productName='Earpods' productDescription='Digital Display Wireless Bluetooth HeadsetBlack' productPrice= '₦3,000' />
+            <Product productUrl='https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRD4Tj18mZzTlvyuh8bITMBDYIjGqqQygKGHeifmOPN14op0b0iLRjlybJcl-QgcFcGnLZ3vhP8p3jwobrI8ZBJXNGbkRZlLcV86cElo0-kSR-LEsooQy9o&usqp=CAc' productName='Headphone' productDescription='Wireless Cat Ear LED Luminous Headphone' productPrice='₦9,920.00' />
+            <Product productUrl='https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSEQQTiD2gDJSsMpIStfgQpFEYIgi1kuk4pLanm2zhv9LCvAWbzuem61J7sgrZvdeGzsThQTZEcdW9lXS93UFMuIDpBarMKfVDHcJITD6U&usqp=CAc' productName='Sneakers' productDescription='2022 Mens Casual SciFi Warrior Running Sneakers BlackGreen' productPrice='₦7,380.00' />
+            <Product productUrl='https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQXoy2o4f6Inlj3EcjPPpoQxFCt_23BwId0AzS003IE0E8w8BS-rP0vH-ax858LV2lsy8JNSIM9kNiwNcgW_d4_mZuj-XArpA53rkYMQVV8JyiukNgPECMNN3wT4E08hGe2BG2lxg&usqp=CAc' productName='Backpack' productDescription='Casual Anti Theft Backpack School Bag Travel Bag' productPrice='₦5.999.00' />
+            <Product productUrl='https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSfjHFDeu5N2NRwoJylWu9CJmXJcGxBcv2aW8-QGy4NFO0VxOC74N8ErcpFuIUuwMLL0uPkDoAdUsprdnS-f_ifc8aPPw_CWurDCWlO6fB-MrQWBvFa5IaJ40uhFICqMg&usqp=CAc' productName='Street Wear' productDescription='KingsKartel Stylis Zip Up Hoodie Joggers Pant Brown Black' productPrice='₦16,999.00' />
+            <Product productUrl='https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4lP3LVk2LRmmmP7oiFYp-OhjxZ_ih2RhbOJ6noXjcevbHIoVXyylH60C8nePZytAFv9V9txZ1TLfxKjgPZ7GXXIEPQnesjyUEAWHqqisNm9nLXt7DIL_IBiCUpLPB2I5Tdr-DNMA&usqp=CAc' productName='Wrist Watch Bracelet Set' productDescription='2 in 1 Women Watch Fashion Leather Wrist Watch Bracelet Set' productPrice='₦5,625.00' />
+            <Product productUrl='https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnGI0K-O24jjl10ZfT4lEk6e3uFM4Dw0wjkKKI6iCK_GUXjUdo4VydDyB1VEzTrs4ZQkA-shgShxxlXq5vq4tZM4X8piMNJQRf5AbF4dRtv23XHIgwWXJ1R-PgE4lsPA&usqp=CAc' productName='Headphone' productDescription='Wireless Foldable Bluetooth Headphone' productPrice='₦9,000.00' />
+            <Product productUrl='https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTw_Pje1THz31wfvW-j9DshcPtdLJsnbu2ot8acLqbrKmlid0NHuwU2WXseW-yMPJs7ebuDnHEGn6CGSPgNzVcRZ5AHH7VGtrhTgNwlhb3LE8iiZLNanv8GEoD5y1MFVZ-2q7bmKA&usqp=CAc' productName='Smart Phone Watch' productDescription='Smart Phone Watch Using Bluetooth For Calls And Messages' productPrice='₦18,000.00' />
+            <Product productUrl='https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTSnHGR2TufFdk9zOso1phh5qibsrYvXx9QEKQqTW_RsxI-oHfTVSITtxnccZvw2ktK38KexFUWXTGfgObA7TFMdPgwfNNZHLWc7dSENOIYwcg_IP9fwFFTNtguufSWhSYhdizaLQ&usqp=CAc' productName='Women Bag' productDescription='Women Bag Crossbody Bag Handbag Female Messanger ShoulderBag' productPrice='₦6,990.00' />
+            <Product productUrl='https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTziKyepZN5mqNz_RnUywCr9_e9y8Z7X912Cdhp0wyBBqIC8CaoX8RWkgf3PSfuYq-l_mZ9RU9UGRWmeuaQ4clCCHwnZTXn7fhZvq4Xl5e8rsLAhc4qHtwqAtlfUmie05b7s0IJ3w&usqp=CAc' productName="Women's Accessories" productDescription="4 Pieces Set Of Women's Bracelets Women's Jewelry And Fashion Accessories" productPrice='₦198.00' />
+            <Product productUrl='https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiip7zMefHKo-enFax1bYwNBr2jNHsUShrDHE_j3alDbjuM1d6tmHICM_4DLv_8rbakBhnYTRK5ZFaobxzk4IB_aQ6F3waKeyWyWnNq8TeO-c0Jz2q6IAYkMChAVcrxQ&usqp=CAc' productName='Pot Sets' productDescription='Non Stick Kitchen Cookig Pot Sets' productPrice='₦35,000.00' />
+            <Product productUrl='https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRdL3qrQDS5tu45pEhZXuJV4kiHTH7ucvSQeQXtOzzMUNqtUwpm6cN6EbPAYE1JNwlIZmJFCrsYL510YVTL8W8deI9YAMN4BSOKXMU1_ruBjU8QcyRV1HqB4RVCvLPLkQ&usqp=CAc' productName='Power Bank' productDescription='50000 Power Bank Fast Charge Type C In And Output Free Cable' productPrice='₦74,990.00' />
+        </div>
+    )
+}
+
+export default ProductList
