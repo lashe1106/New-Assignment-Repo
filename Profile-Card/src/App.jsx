@@ -3,7 +3,6 @@ function App() {
   return (
     <div>
       <Home/>
-      <h2 style={{color: 'white'}}>Hello</h2>
     </div>
   )
 }
